@@ -1,0 +1,33 @@
+#user-list {
+    display: flex;
+    justify-content: space-between;
+}
+.user-item {
+    background-color: rgb(240, 236, 236);
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+   
+    
+}
+.user-item img {
+    padding-left: 80px;
+    padding-top: 80px;
+   
+}
+.user-item p { 
+    text-align: center;
+    color: rgb(91, 91, 95);
+    font-size: 20px;
+}
+.icons {
+    width: 24px;
+    height: 24px;
+}
+.user-item button {
+    border: none;
+}
+
+.mail {
+    display: none;
+}
